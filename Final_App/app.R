@@ -7,6 +7,9 @@
 ##============================================================= Libraries
 library(shiny)
 library(tidyverse)
+library(readxl)
+##============================================================= Data
+perGameStats <- read_xlsx("C:\\STA 404\\nbaData2021.xlsx")
 ##============================================================= Shiny
 # Define UI for application that draws a histogram
 ui <- fluidPage(
